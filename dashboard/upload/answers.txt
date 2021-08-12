@@ -1,0 +1,14 @@
+1- SELECT * FROM products
+2- SELECT * FROM products WHERE product_id = 10
+3- SELECT * FROM products WHERE price BETWEEN 15 and 20
+4- SELECT * FROM products WHERE price = 15 or price = 20
+5- SELECT product_name, price FROM products ORDER BY price ASC
+6- SELECT product_name, price FROM products ORDER BY price DESC
+7- SELECT * FROM products WHERE product_name LIKE '%coffee%'
+8- SELECT * FROM products WHERE price is Null
+9- insert into products Values (21, 'Hot Chocolate', 20, 26)
+10- insert into products (id, name) Values (21, 'Hot Chocolate')
+11- Update products set price = 20 where product_id = 13
+12- Update products set price = 10, quantity = 35 where product_id = 7
+13- DELETE FROM products WHERE product_name = 'Green Tea'
+14- DELETE FROM products WHERE product_id = 1
